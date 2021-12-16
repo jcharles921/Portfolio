@@ -1,0 +1,186 @@
+:root{
+    --darkblue: #030E20;
+    --grayishblue:#082048;
+    --darkgray: #42496D;
+    --violette:#ED1365;
+    --lightviolette: #F34587;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    
+    margin: 0px;
+    background-color: var(--darkblue);
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+    color: white;
+    /* height: 1000px; */
+}
+
+.Header{
+    
+    background-color: var(--grayishblue);
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.buttoncontainer{
+    width: 500px ;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Header img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 92px;
+    position: static;
+
+}
+.hdButton{
+    /* margin-top: 9px; */
+    width: 82px;
+    height: 36px;
+    background-color: var(--violette);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.cicle-1{
+    position: absolute;
+    top: 80px;
+    left: -19px;
+    width: 80px;
+    height:80px;
+    z-index: -1;
+}
+.cicle-2{
+    position: absolute;
+    top: 137px;
+    left: 440px;
+    width: 130px;
+    height:130px;
+    z-index: -1;
+}
+.cicle-3{
+    position: absolute;
+    top: 525px;
+    left: 1004px;
+    width: 300px;
+    height:300px;
+    z-index: -1;
+}
+.icon-1{
+    position: absolute;
+    top: 341px;
+    left: 163px;
+    width: 32px;
+    height:37px;
+    z-index: -1;
+    
+    
+}
+.icon-2{
+    position: absolute;
+    top: 246px;
+    left: 163px;
+    width: 44px;
+    height:44px;
+    z-index: -1;
+    
+    
+}
+.icon-3{
+    position: absolute;
+    top: 282px;
+    left: 349px;
+    width: 22px;
+    height:22px;
+    z-index: -1;
+    fill: white;
+    
+}
+.icon-4{
+    position: absolute;
+    top: 257px;
+    left: 327px;
+    width: 33px;
+    height:33px;
+    z-index: -1;
+    fill: white;
+    
+}
+.icon-5{
+    position: absolute;
+    top: 353px;
+    left: 332px;
+    width: 24px;
+    height:30px;
+    z-index: -1;
+    fill: white;
+    
+}
+
+.icon-6{
+    position: absolute;
+    top: 211px;
+    left: 246px;
+    width: 27px;
+    height:27px;
+    z-index: -1;
+    
+    
+}
+.icon-7{
+    position: absolute;
+    top: 387px;
+    left: 244px;
+    width: 30px;
+    height:30px;
+    z-index: -1;
+    fill: white;
+    color: white;
+    
+}
+.icon-8{
+    position: absolute;
+    top: 497px;
+    left: 175px;
+    width: 185px;
+    height:174px;
+    z-index: -1;
+    fill: white;
+    color: white;
+    
+}
+.text{
+    position: absolute;
+    top: 342px;
+    left: 624px;
+    width: 483px;
+    height: 155px;
+}
+.text span{
+    color: var(--violette);   
+}
+.text h1{
+    font-size: 36px;
+}
+.text h2{
+    font-size: 23px;
+}
+
+.section-1{
+
+
+}
