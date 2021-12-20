@@ -9,29 +9,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 body{
     
-    margin: 0px;
+    margin: 0rem;
     background-color: var(--darkblue);
     font-family: 'Rubik', sans-serif;
     overflow-x: hidden;
     color: white;
-    /* height: 1000px; */
+
 }
 
 .Header{
     
     background-color: var(--grayishblue);
-    margin-top: 0px;
+    margin-top: 0rem;
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     position: fixed;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1;
     
 }
 .buttoncontainer{
-    width: 500px ;
-    height: 60px;
+    width: 31.25rem ;
+    height: 3.75rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,10 +40,10 @@ body{
 
 }
 .Header img{
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 92px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.625rem;
+    margin-left: 5.75rem;
     position: static;
 
 }
@@ -180,7 +181,67 @@ body{
     font-size: 23px;
 }
 
-.section-1{
+.section-end{
+    position: absolute;
+    top: 745px;
+    z-index: -2;
+}
+.section-end-2{
+    position: absolute;
+    top: 842px;
+    z-index: -2;
+}
+.cicle-4{
+    position: absolute;
+    top: 984px;
+    left: 74px;
+    width: 130px;
+    height:130px;
+    z-index: -1;
+}
+
+.cicle-5{
+    position: absolute;
+    top: 938px;
+    left: 1200px;
+    width: 80px;
+    height:80px;
+    z-index: -1;
+}
+.section-2 h2{
+    position: absolute;
+    top: 943px;
+    font-size: 23px;
+    left: 550px;
+    color: var(--lightviolette);
+    margin-top: 79px;
 
 
+
+}
+.text1{
+    position: absolute;
+    top: 1110px;
+    left: 263px;
+    width: 600px;
+    height: 98px;
+    font-size: 21px;
+}
+.profile{
+    position: absolute;
+    top: 1038px;
+    width :341px;
+    height: 331px;
+    border-radius: 10%;
+    left:884px
+}
+.section-end-3{
+    position: absolute;
+    top: 1325px;
+    z-index: -2;
+}
+.section-end-4{
+    position: absolute;
+    top: 1422px;
+    z-index: -2;
 }
