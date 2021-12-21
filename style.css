@@ -49,8 +49,8 @@ body{
 }
 .hdButton{
     /* margin-top: 9px; */
-    width: 82px;
-    height: 36px;
+    width: 5.125rem;
+    height: 2.25rem;
     background-color: var(--violette);
     display: flex;
     align-items: center;
@@ -59,54 +59,54 @@ body{
 }
 .cicle-1{
     position: absolute;
-    top: 80px;
-    left: -19px;
-    width: 80px;
-    height:80px;
+    top: 5rem;
+    left: -1.188rem;
+    width: 5rem;
+    height:5rem;
     z-index: -1;
 }
 .cicle-2{
     position: absolute;
-    top: 137px;
-    left: 440px;
-    width: 130px;
-    height:130px;
+    top: 8.563rem;
+    left: 27.5rem;
+    width: 8.125rem;
+    height:8.125rem;
     z-index: -1;
 }
 .cicle-3{
     position: absolute;
-    top: 525px;
-    left: 1004px;
-    width: 300px;
-    height:300px;
+    top: 32.813rem;
+    left: 62.75rem;
+    width: 18.75rem;
+    height:18.75rem;
     z-index: -1;
 }
 .icon-1{
     position: absolute;
-    top: 341px;
-    left: 163px;
-    width: 32px;
-    height:37px;
+    top: 21.313rem;
+    left: 10.188rem;
+    width: 2rem;
+    height:2.313rem;
     z-index: -1;
     
     
 }
 .icon-2{
     position: absolute;
-    top: 246px;
-    left: 163px;
-    width: 44px;
-    height:44px;
+    top: 15.375rem;
+    left: 10.188rem;
+    width: 2.75rem;
+    height:2.75rem;
     z-index: -1;
     
     
 }
 .icon-3{
     position: absolute;
-    top: 282px;
-    left: 349px;
-    width: 22px;
-    height:22px;
+    top: 17.625rem;
+    left: 21.813rem;
+    width: 1.375rem;
+    height:1.375rem;
     z-index: -1;
     fill: white;
     
@@ -237,11 +237,58 @@ body{
 }
 .section-end-3{
     position: absolute;
-    top: 1325px;
+    top: 1646px;
     z-index: -2;
 }
 .section-end-4{
     position: absolute;
-    top: 1422px;
+    top: 1757px;
     z-index: -2;
+}
+.section-3 h2{
+    position: absolute;
+    top: 1800px;
+    font-size: 23px;
+    left: 550px;
+    color: var(--lightviolette);
+    margin-top: 79px;
+
+
+
+}
+.cicle-6{
+    position: absolute;
+    top: 1886px;
+    left: 74px;
+    width: 130px;
+    height:130px;
+    z-index: -1;
+}
+.cicle-7{
+    position: absolute;
+    top: 1862px;
+    left: 1116px;
+    width: 80px;
+    height:80px;
+    z-index: -1;
+}
+.cicle-8{
+    position: absolute;
+    top: 1380px;
+    left: 36px;
+    width: 270px;
+    height:270px;
+    z-index: -1;
+}
+.instabutton{
+   position: absolute;
+   top:1380px ;
+   left: 996px;
+    width: 125px;
+    height: 54px;
+    background-color: var(--violette);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
 }
