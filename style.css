@@ -247,7 +247,7 @@ body{
 }
 .section-3 h2{
     position: absolute;
-    top: 1800px;
+    top: 1860px;
     font-size: 23px;
     left: 550px;
     color: var(--lightviolette);
@@ -292,3 +292,112 @@ body{
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
 }
+.project{
+    position: absolute;
+    top: 2025px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.project img{
+    width:330px ;
+    height: 288px;
+}
+.cicle-9 {
+    position: absolute;
+    top: 2342px;
+    left: 720px;
+    width: 270px;
+    height: 270px;
+    z-index: -1;
+}
+.section-end-5 {
+    position: absolute;
+    top: 2687px;
+    z-index: -2;
+}
+.section-end-6 {
+    position: absolute;
+    top: 2786px;
+    z-index: -2;
+}
+.cicle-10{
+    position: absolute;
+    top: 2533px;
+    left: 426px;
+    width: 130px;
+    height:130px;
+    z-index: -1;
+}
+.cicle-11{
+    position: absolute;
+    top: 2968px;
+    left: 72px;
+    width: 130px;
+    height:130px;
+    z-index: -1;
+}
+.cicle-12 {
+    position: absolute;
+    top: 2960px;
+    left: 1116px;
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+}
+.section-4 h2{
+    position: absolute;
+    top: 2905px;
+    font-size: 23px;
+    left: 550px;
+    color: var(--lightviolette);
+    margin-top: 79px;
+
+
+
+}
+.section-4 h3{
+    position: absolute;
+    top: 3000px;
+    width: 228px;
+    margin-left: -15px;
+
+    font-size: 19px;
+    left: 550px;
+    color: white;
+    margin-top: 79px;
+}
+.section-4 h3 .ab{
+    top: 195px;
+    position: absolute;
+    
+    margin-left: 35px;
+    
+}
+.abilities{
+    position: absolute;
+    top:3132px;
+    left: 239px;
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.abilities-2{
+    position: absolute;
+    top:3343px;
+    left: 239px;
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.abilities-2 img{
+    width: 90px;
+    height: 90px;
+}
+.abilities-2 .fr{
+    width: 78px;
+    height: 73px;
+    margin-top: 9px;
+}
+
