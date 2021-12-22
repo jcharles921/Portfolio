@@ -402,17 +402,17 @@ body{
 }
 .section-end-7 {
     position: absolute;
-    top: 3558px;
+    top: 3758px;
     z-index: -2;
 }
 .section-end-8 {
     position: absolute;
-    top: 3655px;
+    top: 3855px;
     z-index: -2;
 }
 .contact{
     position: absolute;
-    top: 3800px;
+    top: 4000px;
     width: 100%;
 
     display: flex;
@@ -437,6 +437,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-right: 114px;
+    background-color: var(--darkgray);
 }
 .complete input{
     width: 605px;
@@ -463,12 +464,12 @@ body{
 }
 .section-end-9 {
     position: absolute;
-    top: 466px;
+    top: 666px;
     z-index: -2;
 }
 .footer{
     position: absolute;
-    top:4373px;
+    top:4573px;
     width: 100%;
     background-color: var(--grayishblue);
     display: flex;
