@@ -92,16 +92,58 @@ body{
     font-size:5vh;
 }
 
-.address{
+
+
+.welcome{
+    position:absolute;
+    top:100px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.this{
+    width: 760px;
+    height: 165px;
+    margin-left: -213px;
+
+}
+.the_thing{
+    position:absolute;
+    top:317px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
-.cicle-13{
-    position: absolute;
-    top: 1397px;
-    left: 573px;
-    width: 18.75rem;
-    height:18.75rem;
-    z-index: -1;
+.that_thing{
+    width: 978px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 
+.that_thing .box{
+   height: 292px;
+   width: 974px;
+   background-color: white;
+   border-radius: 7px;
+   margin-bottom: 33px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.learn{
+    color: var(--violette);
+    margin-left: 340px;
+}
+.pages{
+    color: var(--violette);
+    position: absolute;
+    top: 1300px;
+    left: 321px;
+}

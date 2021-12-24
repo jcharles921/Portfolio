@@ -27,7 +27,7 @@ body{
     position: fixed;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 4;
     
 }
 .buttoncontainer{
@@ -61,12 +61,12 @@ body{
 .section-end-9 {
     position: absolute;
     width: 100%;
-    top: 1450px;
+    top: 850px;
     z-index: -2;
 }
 .footer{
     position: absolute;
-    top:1560px;
+    top:965px;
     width: 100%;
     background-color: var(--grayishblue);
     display: flex;
@@ -104,4 +104,86 @@ body{
     height:18.75rem;
     z-index: -1;
 }
+.register{
+    width: 488px;
+    height: 404px;
+    background-color: var(--darkgray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E5E5E5;
+    border-radius: 2%;
+    position: absolute;
+    left: 570px;
+    top: 200px;
+}
+.register h1{
+    font-size: 37px;
+    z-index: 2;
+    width: 170px;
+    height: 47px;
+    background-color: var(--darkgray);
+    margin-left: 56px;
+}
+.register img{
+    position: absolute;
+    top: -45px;
+    width: 125px;
+}
+.register p{
+    margin-left: 246px;
+}
+.reg-name{
+    display: flex;
+    flex-direction: row;
+    width: 378px;
+    justify-content: space-between;
+}
+.register p {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 377.983px;
+    font-size: 14px;
+}
+
+.reg-name input{
+    width: 165px;
+    height: 30px;
+    background-color: var(--grayishgray);
+    border: none;
+    padding-left: 15px;
+    color: white;
+}
+.reg-password{
+    display: flex;
+    flex-direction: column;
+    width: 488px;
+    height:auto;
+    align-items: center;
+    
+}
+.reg-password input{
+    width: 360px;
+    height: 30px;
+    background-color: var(--grayishgray);
+    border: none;
+    border-radius: 2%;
+    margin-top: 20px ;
+    padding-left: 15px;
+    
+    
+}
+.reg-password button{
+    width: 377px;
+    height: 40px;
+    background-color: var(--lightviolette);
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 20px ;
+    font-size: 23px;
+    color: #E5E5E5;
+}
+
+
 
