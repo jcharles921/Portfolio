@@ -2,9 +2,20 @@
     --darkblue: #030E20;
     --grayishblue:#082048;
     --darkgray: #42496D;
-    --violette:#ED1365;
-    --lightviolette: #F34587;
+    /* --violette:#ED1365; */
+    --violette:#007991;
+    --lightviolette: #60EFFF;
     --grayishgray: #7F8BC8;
+    --button:#007991;
+    --tilte:#60EFFF;
+    --buttoncolor:linear-gradient(133.75deg, #007991 57.4%, rgba(163, 247, 181, 0.82) 137.7%);
+    --textcolor:#E5F9E0;
+    --lightgreen:#A3F7B5;
+    --hoverbutton:#E5F9E0;
+    --hovertext:#40C9A2;
+
+    
+    
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -29,6 +40,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     z-index: 1;
+    text-decoration: none;
+    color: white;
     
 }
 .buttoncontainer{
@@ -38,6 +51,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 .Header img{
@@ -58,6 +72,14 @@ body{
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
     cursor: pointer;
+}
+.hdButton a{
+    color: white;
+    text-decoration: none;
+}
+.hdButton:hover ,a:hover{
+    background-color: var(--hoverbutton);
+    color: var(--hovertext);
 }
 .cicle-1{
     position: absolute;
@@ -164,6 +186,7 @@ body{
     z-index: -1;
     fill: white;
     color: white;
+    opacity: 0.8;
     
 }
 .text{
@@ -174,13 +197,16 @@ body{
     height: 155px;
 }
 .text span{
-    color: var(--violette);   
+    color: var(--violette);
+    font-size: 40px;
 }
 .text h1{
-    font-size: 36px;
+    font-size: 37px;
+    margin: 0px;
 }
 .text h2{
     font-size: 23px;
+    letter-spacing: 8px;
 }
 
 .section-end{
@@ -239,12 +265,12 @@ body{
 }
 .section-end-3{
     position: absolute;
-    top: 1646px;
+    top: 1694px;
     z-index: -2;
 }
 .section-end-4{
     position: absolute;
-    top: 1757px;
+    top: 1790px;
     z-index: -2;
 }
 .section-3 h2{
@@ -495,8 +521,8 @@ body{
     max-width: 100%;
 }
 .socials img{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 
 }
 
@@ -511,6 +537,7 @@ body{
     width: 18.75rem;
     height:18.75rem;
     z-index: -1;
+    opacity: 0.5;
 }
 .register{
     width: 488px;
@@ -580,7 +607,7 @@ body{
 .reg-password button{
     width: 377px;
     height: 40px;
-    background-color: var(--lightviolette);
+    background-color: var(--button);
     border: none;
     border-radius: 7px 7px 7px 7px;
     margin-top: 20px ;
