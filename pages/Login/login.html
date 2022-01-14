@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
 </head>
+<script src="login.js"></script>
 <body>
     <div class="Header">
         <img src="./images/logo.png" alt="">
         <div class="buttoncontainer">
            
                 <p>
-                    <div class="hdButton"> <a  style="text-decoration: none; color: white;" href="https://jcharles921.github.io/Portfolio/">Home</a></div>
-                    <div class="hdButton"> <a style="text-decoration: none; color: white;" href="https://jcharles921.github.io/Portfolio/#about">About</a></div>
+                    <div class="hdButton"> <a  style="text-decoration: none; color: white;" href="https://jcharles921.github.io/Portfolio/"><span>Home</span> </a></div>
+                    <div class="hdButton"> <a style="text-decoration: none; color: white;" href="https://jcharles921.github.io/Portfolio/#about"> <span> About</span></a></div>
                     <div class="hdButton">Blog</div>
                     <div class="hdButton">Login</div>
                 </p>
@@ -30,10 +31,15 @@
 
         </div>
         <div class="reg-password">
-            <input type="email" style="color: white;" placeholder="Email">
-            <input type="text" style="color: white;" placeholder="Password">
+            <input type="email" id="input" style="color: white;" placeholder="Email">
+            <br>
+            <span style="color: red;" ><i id="output"></i></span>
+            <input type="text" id="pass"  style="color: white;" placeholder="Password">
+            <br>
+            <span style="color: red;" ><i id="passout"></i></span>
             
-            <button type="submit">Login</button>
+            
+            <button style="background-color: #007991;" onclick="ValidateEmail()" type="submit">Login</button>
 
         </div>
     </div>

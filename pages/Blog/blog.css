@@ -2,9 +2,18 @@
     --darkblue: #030E20;
     --grayishblue:#082048;
     --darkgray: #42496D;
-    --violette:#ED1365;
-    --lightviolette: #F34587;
+    --violette:#007991;
+    --lightviolette:  #60EFFF;
     --grayishgray: #7F8BC8;
+    --button:#007991;
+    --tilte:#60EFFF;
+    --buttoncolor:linear-gradient(133.75deg, #007991 57.4%, rgba(163, 247, 181, 0.82) 137.7%);
+    --textcolor:#E5F9E0;
+    --lightgreen:#A3F7B5;
+    --hoverbutton:#E5F9E0;
+    --hovertext:#40C9A2;
+
+
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -61,7 +70,7 @@ body{
 .section-end-9 {
     position: absolute;
     width: 100%;
-    top: 1450px;
+    top: 1468px;
     z-index: -2;
 }
 .footer{
