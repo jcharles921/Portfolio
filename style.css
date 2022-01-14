@@ -80,6 +80,7 @@ body{
 .hdButton:hover ,a:hover{
     background-color: var(--hoverbutton);
     color: var(--hovertext);
+    
 }
 .cicle-1{
     position: absolute;

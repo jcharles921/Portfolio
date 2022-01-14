@@ -4,11 +4,11 @@ function ValidateEmail()
     var pass =document.getElementById("pass");
 
     if(doc.value.match(pass)){
-        document.getElementById("passout").innerHTML = "Whoops! It looks like you forgot to add your password";
+        document.getElementById("passout").innerHTML = "";
 
     }
     else { 
-        document.getElementById("passout").innerHTML = "";
+        document.getElementById("passout").innerHTML ="Whoops! It looks like you forgot to add your password";
        }   
 
     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
