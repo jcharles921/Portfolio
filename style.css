@@ -62,7 +62,7 @@ body{
     position: static;
 
 }
-.hdButton{
+.hdButton a{
     /* margin-top: 9px; */
     width: 5.125rem;
     height: 2.25rem;
@@ -72,16 +72,21 @@ body{
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
     cursor: pointer;
-}
-.hdButton a{
     color: white;
     text-decoration: none;
+    background-color: none;
 }
-.hdButton:hover ,a:hover{
+/* .buttoncontainer a{
+    color: white;
+   
+} */
+.hdButton:hover,a:hover{
     background-color: var(--hoverbutton);
     color: var(--hovertext);
-    
+    border-radius: 20px 20px 20px 20px;
 }
+
+
 .cicle-1{
     position: absolute;
     top: 5rem;
@@ -207,7 +212,7 @@ body{
 }
 .text h2{
     font-size: 23px;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 }
 
 .section-end{
@@ -311,15 +316,20 @@ body{
 }
 .instabutton{
    position: absolute;
-   top:1380px ;
-   left: 996px;
-    width: 125px;
-    height: 54px;
+   top: 1391px;
+    left: 996px;
+    width: 106px;
+    height: 68px;
     background-color: var(--violette);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
+}
+.instabutton:hover{
+    background-color: #A3F7B5;
+    width: 108px;
+    height: 71px;
 }
 .project{
     position: absolute;
@@ -513,17 +523,22 @@ body{
     margin-left: 112px;
 }
 .foot h2{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: auto;
+    margin-top: 7.656967840735069vh;
+    
+    margin-bottom: 5.9790732436472345vh;
 }
 .foot-logo{
     width: 111px;
     height: 111px;
     max-width: 100%;
+    
+
 }
 .socials img{
-    width: 30px;
-    height: 30px;
+    width: 62px;
+    height: 42px;
+    margin-left: -8px;
 
 }
 
@@ -615,4 +630,13 @@ body{
     font-size: 23px;
     color: #E5E5E5;
 }
+
+@media only screen and (max-width: 500px){
+
+
+
+
+}
+
+
 
