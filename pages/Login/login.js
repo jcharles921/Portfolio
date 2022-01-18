@@ -1,14 +1,15 @@
 function ValidateEmail() 
 {
     var doc = document.getElementById("input");
-    var pass =document.getElementById("pass");
+    var pas =document.getElementById("pass").value;
+    console.log(pas);
 
-    if(doc.value.match(pass)){
+    if(pas == null || pas ==""){
         document.getElementById("passout").innerHTML = "Whoops! It looks like you forgot to add your password";
 
     }
     else { 
-        document.getElementById("passout").innerHTML = "";
+        document.getElementById("passout").innerHTML ="";
        }   
 
     var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;

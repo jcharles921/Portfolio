@@ -58,6 +58,18 @@ body{
 }
 .hdButton{
     /* margin-top: 9px; */
+    /* width: 5.125rem;
+    height: 2.25rem;
+    background-color: var(--violette);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px; */
+   
+}
+.hdButton a{
+    color: white;
+    text-decoration: none;
     width: 5.125rem;
     height: 2.25rem;
     background-color: var(--violette);
@@ -65,6 +77,11 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
+}
+.hdButton a:hover{
+    background-color: var(--hoverbutton);
+    color: var(--hovertext);
+    
 }
 
 .section-end-9 {
@@ -137,6 +154,7 @@ body{
 }
 
 .that_thing .box{
+    
    height: 292px;
    width: 974px;
    background-color: white;

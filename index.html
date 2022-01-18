@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="Header">
@@ -38,7 +39,7 @@
                     <img class="icon-8" src="./icons/4014663_computer_connect_pc_phone_sync_icon 1.svg" alt="">
             <div class="text">
                 <span id="home"></span>
-                <h1><span>Hi</span>,i'm Charles</h2><br>
+                <h1><span>Hi</span>, I'm Charles</h2><br>
                 <h2>I m a Web Developer </h1>
             </div>
             <div>
@@ -63,7 +64,7 @@
                 <img class="section-end-3" src="./images/bg-section-top-desktop-2  2(1).svg" alt="">
                 <img class="section-end-4" src="./images/bg-section-bottom-desktop-2 1(1).svg" alt="">
                 <img  class="cicle-8" src="./icons/Ellipse 4.svg" alt="cicle-8">
-                <div class="instabutton"><img width="55px" height="55px" style="margin-top: 6px;" src="./icons/1930523_instagram_logo_media_social_icon 1.png" alt=""></div>
+                <div class="instabutton"><img width="55px" height="55px" src="./icons/instagram.svg" alt=""></div>
                 
             </div>
             
@@ -118,7 +119,7 @@
                     </div>
                     <div class="complete">
                         Name
-                        <input class="name" placeholder="Your name" type="text" name="" id="">
+                        <input style="border-color: none;" class="name" placeholder="Your name" type="text" name="" id="">
                         Email
                         <input class="email" placeholder="your Email" type="email" name="" id="">
                         Message
@@ -166,10 +167,13 @@
 
                     </div>
                     <div class="reg-password">
-                        <input type="email" style="color: white;" placeholder="Email">
-                        <input type="text" style="color: white;" placeholder="Password">
-                        <input type="text" style="color: white;" placeholder="Confirm password">
-                        <button type="submit">Submit</button>
+                        <input type="email" id="input-e" style="color: white;" placeholder="Email">
+                        <span style="color: red;" ><i id="out-e"></i></span><br>
+                        <input type="text" id="input-p" style="color: white;" placeholder="Password">
+                        <span style="color: red;" ><i id="out-p"></i></span><br>
+                        <input type="text" id="input-c" style="color: white;" placeholder="Confirm password">
+                        <span style="color: red;" ><i id="out-c"></i></span>
+                        <button onclick="ValidateForm2()" type="submit">Submit</button>
 
                     </div>
 
