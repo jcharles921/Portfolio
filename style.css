@@ -64,8 +64,8 @@ body{
 }
 .hdButton a{
     /* margin-top: 9px; */
-    width: 5.125rem;
-    height: 2.25rem;
+    width: 82px;
+    height: 36px;
     background-color: var(--violette);
     display: flex;
     align-items: center;
@@ -97,16 +97,16 @@ body{
 }
 .cicle-2{
     position: absolute;
-    top: 8.563rem;
-    left: 27.5rem;
+    top: 137px;
+    left: 440px;
     width: 8.125rem;
     height:8.125rem;
     z-index: -1;
 }
 .cicle-3{
     position: absolute;
-    top: 32.813rem;
-    left: 62.75rem;
+    top: 525px;
+    left: 1000px;
     width: 18.75rem;
     height:18.75rem;
     z-index: -1;
@@ -224,6 +224,7 @@ body{
     position: absolute;
     top: 842px;
     z-index: -2;
+    visibility: visible;
 }
 .cicle-4{
     position: absolute;
@@ -252,6 +253,23 @@ body{
 
 
 
+}
+.hovbutton{
+    visibility: hidden;
+    width: 204px;
+    height: 74px;
+    left: 222px;
+    top: 879px;
+    font-size: 28px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(133.75deg, #007991 57.4%, rgba(163, 247, 181, 0.82) 137.7%);
+    border-radius: 20px;
+}
+.hovbutton p{
+    padding-left: 19%;
 }
 .text1{
     position: absolute;
@@ -517,6 +535,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 30px;
 
 }
 .foot{
@@ -524,9 +543,9 @@ body{
 }
 .foot h2{
     height: auto;
-    margin-top: 7.656967840735069vh;
+    margin-top: 56px;
     
-    margin-bottom: 5.9790732436472345vh;
+    margin-bottom: 44px;
 }
 .foot-logo{
     width: 111px;
@@ -557,7 +576,7 @@ body{
 }
 .register{
     width: 488px;
-    height: 404px;
+    height: 440px;
     background-color: var(--darkgray);
     display: flex;
     flex-direction: column;
@@ -565,11 +584,12 @@ body{
     align-items: center;
     color: #E5E5E5;
     border-radius: 2%;
+    margin-right: 10px;
 }
 .register h1{
     font-size: 37px;
     z-index: 2;
-    width: 170px;
+    width: 146px;
     height: 47px;
     background-color: var(--darkgray);
 }
@@ -630,11 +650,338 @@ body{
     font-size: 23px;
     color: #E5E5E5;
 }
+.reg-password button:hover{
+    background-color: var(--hoverbutton);
+    color: var(--hovertext);
+}
+.new-end-1{
+    visibility: hidden;
+}
+.new-end-2{
+    visibility: hidden;
+}
+.new-end-3{
+    visibility: hidden;
+}
+.new-end-4{
+    visibility: hidden;
+}
+.new-end-5{
+    visibility: hidden;
+}
+.new-end-6{
+    visibility: hidden;
+}
+.new-end-7{
+    visibility: hidden;
+}
+.new-end-8{
+    visibility: hidden;
+}
+.new-end-9{
+    visibility: hidden;
+}
+.new-end-10{
+    visibility: hidden;
+}
+.submit{
+    visibility: hidden;
+position: absolute;
+    width: 204px;
+    height: 74px;
+    left: 222px;
+    top: 2879px;
+    font-size: 28px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(133.75deg, #007991 57.4%, rgba(163, 247, 181, 0.82) 137.7%);
+    border-radius: 20px;
+}
+#out-p{
+    position: absolute;
+    top: 249px;
+}
+#out-e{
+    position: absolute;
+    top: 181px;
+}
+#out-c{
+    position: absolute;
+    top: 312px;
+}
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 414px){
+body{
+    width: 411px;
+    max-width: 100%;
+    
+    height: 100%;
+}
+.text{
+    top:200px;
+    left:38px;
+}
+.Header{
+    justify-content:space-around;
+    max-width: 414px;
+}
+.Header img{
+    margin-left: 16px;
+}
+.cicle-2{
+    top:26px;
+    left: 261px;
+}
+.logi{
+    visibility: hidden;
+}
+.hovbutton{
+    visibility: unset;
+    margin-top: 90px;
+    height: 53px;
+    width: 146px;
+}
+.hovbutton p{
+    margin-left: -6%;
+    font-size: 22px;
+}
+.hovbutton:hover{
+    background-color: var(--hoverbutton);
+}
 
+    .hdButton a{
+        font-size: 13px;
+        width: 52px;
+        height: 25px;
+        
+    }
+    .section-end{
+        visibility: hidden;
+    }
+    .section-end-2{
+        visibility: hidden;
+    }
+    .section-end-3{
+        visibility: hidden;
+    }
+    .section-end-4{
+        visibility: hidden;
+    }
+    .section-end-5{
+        visibility: hidden;
+    }
+    .section-end-6{
+        visibility: hidden;
+    }
+    .section-end-7{
+        visibility: hidden;
+    }
+    .section-end-8{
+        visibility: hidden;
+    }
+    .section-end-9{
+        visibility: hidden;
+    }
+    .new-end-1{
+        position: absolute;
+        top: 482px;
+        visibility: visible;
+    }
+    .new-end-2{
+        visibility: visible;
+        position: absolute;
+        top: 526px;
+        
+    }
+    .cicle-3{
+        top:525px;
+        left: 302px;
+        width: 100px;
+        height: 100px;
+    }
+    .cicle-4{
+        top: 592px;
+        left: -69px;
+    }
+    .section-2 h2{
+        top: 563px;
+        left: 155px;
+    }
+    .text1{
+        top: 723px;
+        left: 17px;
+        max-width: 414px;
+    }
+    .cicle-5{
+        top: 871px;
+        left: 324px;
+    }
+    .profile{
+        top: 961px;
+        left: 38px;
+        width: 310px;
+        height: 283px;
+    }
+    .instabutton{
+        top: 1268px;
+        left: 155px;
 
+    }
+    .cicle-8{
+        visibility: hidden;
+    }
+    .new-end-3{
+        visibility: visible;
+        position: absolute;
+        top: 1336px;
+    }
+    .new-end-4{
+        visibility: visible;
+        position: absolute;
+        top: 1379px;
+    }
+    .section-3 h2{
+        top: 1372px;
+        left: 123px;
+    }
+    .project{
+        position: absolute;
+        top: 1536px;
+        left: 63px;
+        max-width: 414px;
+        flex-direction: column;
+        max-height: 850px;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .project img{
+        margin-top: 20px;
+        width: 294px;
+        height: 244px;
+    }
+    .new-end-5{
+        visibility: visible;
+        position: absolute;
+        top: 2341px;
+    }
+    .new-end-6{
+        visibility: visible;
+        position: absolute;
+        top: 2381px;
+    }
+    .cicle-10{
+        top: 2379px;
+        left: -63px;
+    }
+    .cicle-9{
+        visibility: hidden;
 
+    }
+    .cicle-7{
+        top: 1466px;
+        left: 325px;
+    }
+    .section-4 h2{
+        top: 2350px;
+        left: 146px;
+    }
+    .cicle-12{
+        top: 2531px;
+        left: 332px;
+    }
+    .section-4 h3{
+        top:2460px;
+        left: 150px;
+    }
+    .section-4 h3 .ab{
+        top: 562px;
+
+    }
+    .abilities{
+        flex-direction: column;
+        width: 65px;
+       
+        top: 2587px;
+        left: 181px;
+    }
+    .abilities-2{
+        top: 3163px;
+        flex-direction: column;
+        left: 173px;
+        
+    }
+    .cicle-13{
+        visibility: hidden;
+    }
+    .new-end-7{
+        visibility: visible;
+        position: absolute;
+        top: 3441px;
+    }
+    .new-end-8{
+        visibility: visible;
+        position: absolute;
+        top: 3481px;
+    }
+    .contact{
+        flex-direction: column;
+        top: 3542px;
+        max-width: 414px;
+    }
+    .complete{
+        margin-left: 80px;
+    }
+    .complete input, textarea{
+        width: auto;
+    } 
+    .complete textarea{
+        width: auto;
+    } 
+    .footer{
+        flex-direction: column;
+        max-width: 414px;
+        top: 4300px;
+    }
+    .register span{
+        top: 439px;
+        left:21px;
+    }
+    .foot-logo {
+        width: 65px;
+        height: 65px;
+        /* max-width: 19%; */
+        margin-left: -97px;
+        margin-top: 30px;
+    }
+    .register{
+        max-width: 394px;
+        margin-left: 9px;
+    }
+    .new-end-9{
+        visibility: visible;
+        position: absolute;
+        top: 4253px;
+    }
+    .foot h2{
+        margin-top: 6px;
+        margin-bottom: 25px;
+        margin-left: 52px;
+
+    }
+    .socials{
+        margin-left: -44px;
+    }
+    .address h2{
+        margin-left: 142px;
+    }
+    .address p{
+        margin-left: 170px;
+        margin-top: 2px;
+}
+    
+    
 
 }
 

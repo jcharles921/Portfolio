@@ -33,3 +33,17 @@ function ValidateEmail()
      return false;
     }    
 }
+// function database(){
+//   var email= document.getElementById("input").value;
+//     var pass =document.getElementById("pass").value;
+// var user=localStorage.getItem(email);
+// var data=JSON.parse(user);
+// console.log(data);
+// }
+// var mainuser = {
+//   mail="andela@gmail.com",
+//   passs="1234",
+
+// }
+// var json= JSON.stringify(mainuser);
+// localStorage.setItem(json);
