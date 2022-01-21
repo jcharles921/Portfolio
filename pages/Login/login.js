@@ -10,7 +10,7 @@ function ValidateEmail()
     // var passadmin= localStorage.getItem("userpass");
     // var adminverify=JSON.parse(nameadmin);
     // var passverify=JSON.parse(passadmin);
-    var data= JSON.parse(check);
+    const data= JSON.parse(check);
     console.log(data);
 
 
