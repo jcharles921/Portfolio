@@ -29,7 +29,7 @@
     <div class="controls">
         <div class="manage"><p>Manage Posts</p></div>
         <div class="manage"><p>Manage Users</p></div>
-        <div class="manage"><p>Users Localisation</p></div> 
+        <div id="loc" class="manage"><p>Users Localisation</p></div> 
     </div>
     <div class="Master">
         <div class="post">
@@ -39,7 +39,23 @@
 
         </div>
         <div class="location">
-
+            <div class="cont">
+                 <p class="us1"><strong style="
+                    font-size: 24px;
+                    position: absolute;
+                    top: 51px;
+                    left: 109px;
+                ">User1</strong> </p>
+                <span style ="
+                position: absolute;
+                top: 94px;
+                left: 531px;
+                font-size: 31px;">LAT: <span id="lat"></span></span>
+                 <span style="position: absolute;
+                 top: 94px;
+                 left: 831px;
+                 font-size: 31px;">LONG: <span id="long"></span></span>
+            </div>
         </div>
 
     </div>
@@ -65,4 +81,6 @@
                      
     </div>
 </body>
+<script src="./panel.js"></script>
+
 </html>

@@ -10,7 +10,7 @@ function ValidateEmail()
     // var passadmin= localStorage.getItem("userpass");
     // var adminverify=JSON.parse(nameadmin);
     // var passverify=JSON.parse(passadmin);
-    var data= JSON.parse(check);
+    const data= JSON.parse(check);
     console.log(data);
 
 
@@ -35,7 +35,7 @@ function ValidateEmail()
         window.location.href ='https://jcharles921.github.io/Portfolio/pages/Blog/blog.html';
       }
       else if(doc.value=="Andela@gmail.com" && pas =="andela"){
-        window.location.href ='../pages/Controlpanel/panel.html';
+        window.location.href ='https://jcharles921.github.io/Portfolio/pages/Controlpanel/panel.html';
       }
       else{
         document.getElementById("output").innerHTML = "Invalid Credentials";
