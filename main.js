@@ -6,6 +6,7 @@ localStorage.setItem("username", "Jean Charles");
     localStorage.setItem("adminpass", "andela");
     var email = document.getElementById("input-e").value;
     
+    
     var name = document.getElementById("name").value;
     var passwrd= document.getElementById("input-p").value;
     var adminame= "Jean Charles";
@@ -15,9 +16,7 @@ localStorage.setItem("username", "Jean Charles");
         username:name,
         password:passwrd,
     };
-    var arr =localStorage.getItem("username");
-        var data= JSON.stringify(arr);
-        console.log(data);
+   
 
 vent[0].addEventListener('click', () =>{
     console.log("Hello i m underwater");
@@ -59,9 +58,11 @@ function ValidateForm2(){
             password:passwrd,
         };
 
-        let json =JSON.stringify(user);
-        // let data= JSON.parse(json);
-        localStorage.setItem("users",json);
+        let arr = localStorage.getItem('users')
+        ? JSON.parse(localStorage.getItem('users'))
+        : [];
+            arr.push(user);
+        localStorage.setItem("users",JSON.stringify(arr));
         console.log("User added");
         window.location.href ='https://jcharles921.github.io/Portfolio/pages/Login/login.html';
 
