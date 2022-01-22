@@ -221,6 +221,7 @@ body{
 }
 .cont{
     visibility: hidden;
+    display: none;
     height:130px;
     width: 1069px;
     background-color: white;
@@ -231,6 +232,25 @@ body{
     flex-direction: row;
     margin-top: 20px;
 
+}
+.post{
+    visibility: hidden;
+    display: none;
+    height:130px;
+    width: 659px;
+    background-color: white;
+    margin-left: 81px;
+    border-radius: 25px 25px 25px 25px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.post p{
+    position: absolute;
+    top: 60px;
+    left: 100px;
 }
 
 
