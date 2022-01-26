@@ -8,18 +8,27 @@ var mark= document.getElementById("mark");
 // }
 
     var post=localStorage.getItem("poststatus");
-    var status=JSON.parse(post);
-    console.log(status);
-
-
+    var stat = JSON.parse(post);
+    console.log("status",stat);
 
 const reflesh=document.getElementsByClassName("pages");
 reflesh[0].addEventListener('click',()=>{
-    if(status.atingi=="1"){
+    if(stat.atingi=="1"){
         console.log("deleted");
         atingi.style.display="none";
     }
     else{
         console.log("nothing to delete");
     }
-})
+    
+});
+window.addEventListener('load', (event) => {
+    console.log('The page has fully loaded');
+    if(stat.atingi=="1"){
+        console.log("deleted");
+        atingi.style.display="none";
+    }
+    else{
+        console.log("nothing to delete");
+    }
+});
