@@ -49,7 +49,7 @@ body{
     position: static;
 
 }
-.hdButton{
+.hdButton a{
     /* margin-top: 9px; */
     width: 5.125rem;
     height: 2.25rem;
@@ -58,15 +58,16 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px 20px 20px;
-}
-.hdButton a{
     color: white;
     text-decoration: none;
 }
-.hdButton:hover ,a:hover{
+
+.hdButton:hover,a:hover{
     background-color: var(--hoverbutton);
     color: var(--hovertext);
+    border-radius: 20px 20px 20px 20px;
 }
+
 .section-end-9 {
     position: absolute;
     width: 100%;
