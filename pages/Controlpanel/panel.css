@@ -285,5 +285,18 @@ body{
 .New:hover{
     cursor: pointer;
 }
+.users{
+    position: absolute;
+    background-color: white;
+    top: 15px;
+    width: 1152px;
+    left: 5px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    border-radius: 20px;
+}
+    
 
 

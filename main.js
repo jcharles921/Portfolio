@@ -62,10 +62,36 @@ function ValidateForm2(){
         ? JSON.parse(localStorage.getItem('users'))
         : [];
             arr.push(user);
-        localStorage.setItem("users",JSON.stringify(arr));
-        console.log("User added");
-        window.location.href ='https://jcharles921.github.io/Portfolio/pages/Login/login.html';
-
+            const UserValues = {
+                method: "POST",
+                headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
+                body: JSON.stringify({
+                  username: name,
+                  email: email,
+                  password: passwrd,
+                }),
+                
+              };
+          
+              fetch(
+                "https://portback.herokuapp.com/api/register",
+                UserValues
+              )
+                .then(response => response.json())
+                .then((data) => {
+                  console.log(data);
+                  if (data.message == 'User with this email already exist. use different one') {
+                    alert(data.message)
+                  }
+                  else alert('Registered Successfully Login') ;
+                });
+                console.log('Request Sent');
+          
+                
+          
+            
+          
+          
 
         
 
