@@ -5,21 +5,15 @@ function ValidateEmail()
     var passregex=/\w|\d/;
     var passValidity= passregex.test(pas);
     
-    const UserValues = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        email: doc.value,
-        password: pas,
-      }),
-    };
-    fetch("https://my-portfolio-back-end.herokuapp.com/api/login", UserValues)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);})
+    var check=localStorage.getItem("users");
+    // var nameadmin= localStorage.getItem("username");
+    // var passadmin= localStorage.getItem("userpass");
+    // var adminverify=JSON.parse(nameadmin);
+    // var passverify=JSON.parse(passadmin);
+    const data= JSON.parse(check);
+    console.log(data);
+
+
     if(pas == null || pas =="" || passValidity ==false ){
         document.getElementById("passout").innerHTML = "Whoops! It looks like you forgot to add your password";
 
@@ -60,26 +54,3 @@ function ValidateEmail()
      return false;
     }    
 }
-
-    
-        // if (data.message === "Invalid Password Plz Try Again!" || data.message === "Invalid Email Plz Try Again!" || data.status == 400){
-        //     setError(email, '');
-        //     setError(password,'');
-        //     message.innerHTML = 'Email or Password Is Invalid';
-        // }
-        // else {
-        //     token = data.accessToken;
-        //     localStorage.setItem('user', token);
-        //     location = "../Blog-Page/blog.html";
-        //     alert("Successfully Logged In");
-        // }
-
-
-// function database(){
-//   var email= document.getElementById("input").value;
-//     var pass =document.getElementById("pass").value;
-// var user=localStorage.getItem(email);
-// var data=JSON.parse(user);
-// console.log(data);
-// }
-
