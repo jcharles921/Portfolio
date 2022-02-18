@@ -58,9 +58,7 @@ function ValidateForm2(){
             password:passwrd,
         };
 
-        let arr = localStorage.getItem('users')
-        ? JSON.parse(localStorage.getItem('users'))
-        : [];
+        
           
             const UserValues = {
                 method: "POST",
