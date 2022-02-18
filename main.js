@@ -61,7 +61,7 @@ function ValidateForm2(){
         let arr = localStorage.getItem('users')
         ? JSON.parse(localStorage.getItem('users'))
         : [];
-            arr.push(user);
+          
             const UserValues = {
                 method: "POST",
                 headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
